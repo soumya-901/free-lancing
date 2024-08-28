@@ -12,6 +12,76 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-with-image":
+          'url("/linearBgImage.svg"), linear-gradient(116.91deg, #0075C2 0.92%, #002136 96.56%)',
+        "gradient-with-sm-image":
+          'url("/linearDesign.svg"), linear-gradient(116.91deg, #0075C2 0.92%, #002136 96.56%)',
+      },
+      backgroundPosition: {
+        "image-left": "left center", // Position the image on the left
+      },
+      backgroundSize: {
+        "image-size": "50px", // Adjust this to the actual size of your image
+      },
+      backgroundColor: {
+        seoblue: "#0385DB",
+      },
+      width: {
+        maxWidthSeo: "80vw",
+      },
+      textColor: {
+        white: "white",
+        seodark: "#2C2C2C",
+        seoblue: "#0385DB",
+        exdark: "#000000",
+        exblue: "#00628C",
+        light: "#3C3C43B0",
+        green: "#00C850",
+      },
+      fontFamily: {
+        defaut: "Poppins",
+      },
+      fontSize: {
+        "1xl": [
+          ".9rem",
+          {
+            lineHeight: "1.5rem",
+            letterSpacing: "-0.01em",
+            fontWeight: "400",
+          },
+        ],
+        "2xl": [
+          "1.1rem",
+          {
+            lineHeight: "1.4rem",
+            letterSpacing: "-0.01em",
+            fontWeight: "400",
+          },
+        ],
+        "3xl": [
+          "1.875rem",
+          {
+            lineHeight: "2.25rem",
+            letterSpacing: "-0.02em",
+            fontWeight: "700",
+          },
+        ],
+        "4xl": [
+          "1.775rem",
+          {
+            lineHeight: "2.25rem",
+            letterSpacing: "-0.02em",
+            fontWeight: "700",
+          },
+        ],
+        "5xl": [
+          "3.5rem",
+          {
+            lineHeight: "3.25rem",
+            letterSpacing: "0.02em",
+            fontWeight: "700",
+          },
+        ],
       },
     },
   },
