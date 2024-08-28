@@ -25,6 +25,7 @@ const config: Config = {
       },
       backgroundColor: {
         seoblue: "#0385DB",
+        lightdark: "#757575",
       },
       width: {
         maxWidthSeo: "80vw",
@@ -37,6 +38,7 @@ const config: Config = {
         exblue: "#00628C",
         light: "#3C3C43B0",
         green: "#00C850",
+        lightdark: "#757575",
       },
       fontFamily: {
         defaut: "Poppins",
@@ -51,27 +53,27 @@ const config: Config = {
           },
         ],
         "2xl": [
-          "1.1rem",
+          "1.2rem",
           {
             lineHeight: "1.4rem",
-            letterSpacing: "-0.01em",
+            letterSpacing: "0.02em",
             fontWeight: "400",
           },
         ],
         "3xl": [
-          "1.875rem",
+          "1.4rem",
           {
-            lineHeight: "2.25rem",
+            lineHeight: "1.60rem",
             letterSpacing: "-0.02em",
-            fontWeight: "700",
+            fontWeight: "600",
           },
         ],
         "4xl": [
-          "1.775rem",
+          "2.2rem",
           {
             lineHeight: "2.25rem",
             letterSpacing: "-0.02em",
-            fontWeight: "700",
+            fontWeight: "600",
           },
         ],
         "5xl": [

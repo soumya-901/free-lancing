@@ -1,4 +1,7 @@
+import Accordion from "@/components/Accordian";
+import CardComponent from "@/components/CardComponent";
 import Custombutton from "@/components/Custombutton";
+import AutoSlider from "@/components/Slider";
 import VideoLink from "@/components/VideoLink";
 import Image from "next/image";
 import Link from "next/link";
@@ -60,10 +63,7 @@ export default function Home() {
       </div>
 
       {/*  platform support section   */}
-      <div
-        id="dowloadpage"
-        className="flex flex-col max-w-[1705px]  justify-center w-[90vw] h-auto mt-[9rem] sm:mt-[7rem] md:mt-[4rem]  items-center "
-      >
+      <div className="flex flex-col max-w-[1705px]  justify-center w-[90vw] h-auto mt-[9rem] sm:mt-[7rem] md:mt-[4rem]  items-center ">
         <p className="text-center text-2xl w-[90%] sm:w-[70%] h-30 mb-5 text-seodark ">
           Discover the perfect tool for fast and efficient video and music
           downloads from the web: our SEO Horizon Video Downloader. This
@@ -100,10 +100,7 @@ export default function Home() {
 
       {/* Guide for saving mp3 section  */}
 
-      <div
-        id="dowloadpage"
-        className="flex flex-col bg-gradient-with-sm-image lg:bg-gradient-with-image bg-left bg-no-repeat max-w-[1705px]  justify-center w-[100vw] my-10 h-[90vh]  lg:h-[60vh] items-center "
-      >
+      <div className="flex flex-col bg-gradient-with-sm-image lg:bg-gradient-with-image bg-left bg-no-repeat max-w-[1705px]  justify-center w-[100vw] my-10 h-[100vh]  lg:h-[65vh] items-center ">
         <p className="text-center w-[90%] text-4xl text-white my-5 ">
           Guide: Saving MP4 Videos in HD - Top Methods Explained
         </p>
@@ -127,6 +124,91 @@ export default function Home() {
             add-on, enabling single-click video downloads.
           </p>
         </div>
+      </div>
+
+      {/* card componenet */}
+
+      <div className="flex flex-col max-w-[1705px]  justify-center w-[100%] lg:w-[90vw] h-full  mt-[3rem] sm:mt-[7rem] md:mt-[4rem]  items-center">
+        <p className="text-center w-[90%] text-4xl text-exdark my-5 ">
+          Benefits of using our YouTube Video Downloader
+        </p>
+        <p className="text-center w-[90%] lg:w-[55%] text-2xl  mb-5 ">
+          This tool is an excellent option if you want to save favorite YouTube
+          videos without losing time. Here are some of the reasons why our
+          YouTube Video Downloader is quite popular within the community.
+        </p>
+
+        <CardComponent />
+      </div>
+
+      {/* how to download components */}
+      <div className="flex flex-col max-w-[1705px]  justify-center w-[90vw]  mt-[5rem]  items-center">
+        <p className="relative text-center w-[90%] text-4xl text-exdark mt-5 ">
+          How to download with SEO YouTube Downloader
+        </p>
+        <div className="flex flex-col md:flex-row mt-[2rem] w-[90%]">
+          <div className=" w-[100%] md:w-[40%] mt-[3rem]  h-fit flex flex-col items-center justify-center">
+            <button className="text-white w-fit bg-seoblue rounded-[3rem] py-1.5 px-5">
+              1. Copy the video link
+            </button>
+            <img
+              src="step1download.png"
+              alt="youtube video downloader"
+              className=" h-[18rem] w-[25rem] my-2 "
+            />
+            <p className="text-center w-[90%] lg:w-[55%] text-lightdark text-2xl  mb-5 ">
+              Open the video you want to download and copy its link at the top
+              of the screen
+            </p>
+          </div>
+          <div className="w-[100%] md:w-[40%] mt-[3rem] h-fit flex flex-col items-center justify-center">
+            <button className="text-white w-fit bg-seoblue rounded-[3rem] py-1.5 px-5">
+              2. Paste the link into the input
+            </button>
+            <img
+              src="step2download.png"
+              alt="youtube video downloader"
+              className=" h-[18rem] w-[25rem] my-2 "
+            />
+            <p className="text-center w-[90%] lg:w-[55%] text-lightdark text-2xl  mb-5 ">
+              Then go to our website and paste the link into the input field
+            </p>
+          </div>
+          <div className="w-[100%] md:w-[40%] mt-[3rem] h-fit flex flex-col items-center justify-center">
+            <button className="text-white w-fit bg-seoblue rounded-[3rem] py-1.5 px-5">
+              3. Download Video
+            </button>
+            <img
+              src="step3download.png"
+              alt="youtube video downloader"
+              className=" h-[18rem] w-[25rem] my-2 "
+            />
+            <p className="text-center  lg:w-[55%] text-lightdark text-2xl  mb-5 ">
+              Select the quality that suits you and click the "download" button.
+              Ready!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Frequently asked questino */}
+
+      <div className="flex flex-col max-w-[1705px]  justify-center w-[90vw]  mt-[5rem]  items-center">
+        <p className="relative text-center w-[90%] text-4xl text-exdark mt-5 ">
+          Frequently Asked Questions
+        </p>
+        <div className="flex flex-col min-h-[40rem] p-5 justify-center items-center bg-[#DFF1FF] rounded-3xl my-[3rem] w-[98%] md:w-[80%]">
+          <Accordion />
+        </div>
+      </div>
+
+      {/* Reference Tools */}
+
+      <div className="flex flex-col max-w-[1705px]  justify-center w-[90vw]  mt-[5rem] mb-[5rem] items-center">
+        <p className="relative text-center w-[90%] text-4xl text-exdark mt-5 ">
+          Related Tools
+        </p>
+        <AutoSlider />
       </div>
     </main>
   );

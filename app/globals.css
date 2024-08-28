@@ -28,3 +28,11 @@ body {
     text-wrap: balance;
   }
 }
+
+/* global.css */
+input:checked ~ .accordion-content {
+  max-height: 100vh; /* Arbitrarily large to accommodate content */
+}
+input:checked ~ label svg {
+  transform: rotate(90deg);
+}
