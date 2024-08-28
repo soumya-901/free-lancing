@@ -45,10 +45,10 @@ const config: Config = {
       },
       fontSize: {
         "1xl": [
-          ".9rem",
+          "1rem",
           {
             lineHeight: "1.5rem",
-            letterSpacing: "-0.01em",
+            letterSpacing: "0.03em",
             fontWeight: "400",
           },
         ],
@@ -72,15 +72,15 @@ const config: Config = {
           "2.2rem",
           {
             lineHeight: "2.25rem",
-            letterSpacing: "-0.02em",
+            letterSpacing: "0.02em",
             fontWeight: "600",
           },
         ],
         "5xl": [
-          "3.5rem",
+          "3.8rem",
           {
             lineHeight: "3.25rem",
-            letterSpacing: "0.02em",
+            letterSpacing: "0.05em",
             fontWeight: "700",
           },
         ],

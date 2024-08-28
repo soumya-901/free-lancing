@@ -34,6 +34,9 @@ export default function AutoSlider() {
             slidesPerView: 3,
           },
           640: {
+            slidesPerView: 2,
+          },
+          300: {
             slidesPerView: 1,
           },
         }}

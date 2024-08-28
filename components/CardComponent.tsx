@@ -49,7 +49,7 @@ const CardComponent = () => {
   ];
 
   return (
-    <div className="flex w-[75%] flex-wrap justify-center lg:justify-between ">
+    <div className="flex w-[80%] flex-wrap justify-center lg:justify-between ">
       {cardData.map((eachCard, index) => (
         <div
           key={index}
