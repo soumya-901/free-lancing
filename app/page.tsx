@@ -29,12 +29,12 @@ export default function Home() {
         <img
           src="/tread2.svg"
           alt="youtube video downloader"
-          className="h-[10rem] absolute hidden md:block  top-[13rem] sm:right-[5vw] right-[1vw] lg:right-[25vw]  "
+          className="h-[13rem] w-fit absolute hidden md:block  top-[13rem] sm:right-[5vw] right-[1vw] lg:right-[20vw]  "
         />
         <img
           src="/tread1.svg"
           alt="youtube video downloader"
-          className=" h-[10rem] absolute hidden md:block  left-[1vw] sm:left-[5vw] lg:left-[15vw]  top-[12.5rem] "
+          className=" h-[13rem] w-fit absolute hidden md:block  left-[1vw] sm:left-[5vw] lg:left-[13vw]  top-[12.5rem] "
         />
         <p className="text-2xl sm:w-3/4 w-[90%]  md:w-[50vw] text-seodark text-center  mt-6">
           Never let slow internet ruin your YouTube experience. Download any
@@ -57,13 +57,13 @@ export default function Home() {
         <img
           src="/youtubedownload.svg"
           alt="youtube video downloader"
-          className="w-[20rem] h-[18rem] mr-0 sm:mr-10 "
+          className="w-[25rem] h-[18rem] mr-0 sm:mr-10 "
         />
         <VideoLink />
       </div>
 
       {/*  platform support section   */}
-      <div className="flex flex-col max-w-[1805px]  justify-center w-[90vw] h-auto my-[5rem]  items-center ">
+      <div className="flex flex-col max-w-[1805px]  justify-center w-[90%] h-auto my-[5rem]  items-center ">
         <p className="text-center text-2xl w-[90%] sm:w-[80%] h-30 mb-5 text-seodark ">
           Discover the perfect tool for fast and efficient video and music
           downloads from the web: our SEO Horizon Video Downloader. This
@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* Guide for saving mp3 section  */}
 
-      <div className="flex flex-col bg-gradient-with-sm-image lg:bg-gradient-with-image bg-left bg-no-repeat mt-[3rem]   justify-center w-[100vw]  h-auto min-h-[30rem] items-center ">
+      <div className="flex flex-col bg-gradient-with-sm-image lg:bg-gradient-with-image bg-left bg-no-repeat mt-[3rem]   justify-center w-full  h-auto min-h-[30rem] items-center ">
         <p className="text-center w-[90%] text-4xl text-white mt-5  ">
           Guide: Saving MP4 Videos in HD - Top Methods Explained
         </p>

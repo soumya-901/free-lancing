@@ -36,3 +36,22 @@ input:checked ~ .accordion-content {
 input:checked ~ label svg {
   transform: rotate(90deg);
 }
+
+/* Global Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff; /* Adjust the track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0385db; /* Adjust the thumb color */
+  border-radius: 10px; /* Optional: round the scrollbar edges */
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffff; /* Thumb color on hover */
+}

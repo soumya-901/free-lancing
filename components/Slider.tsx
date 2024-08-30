@@ -8,12 +8,42 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import SwiperCore from "swiper";
 import { Autoplay, Pagination } from "swiper/modules";
+import Link from "next/link";
 
 // Install Swiper modules
 SwiperCore.use([Pagination, Autoplay]);
 
 export default function AutoSlider() {
-  const items = [1, 2, 3, 4, 5, 6]; // Example items array
+  const items = [
+    {
+      toolname: "Youtube Tag Generator",
+      link: "",
+    },
+    {
+      toolname: "Youtube Tag Generator",
+      link: "",
+    },
+    {
+      toolname: "Youtube Tag Generator",
+      link: "",
+    },
+    {
+      toolname: "Youtube Tag Generator",
+      link: "",
+    },
+    {
+      toolname: "Youtube Tag Generator",
+      link: "",
+    },
+    {
+      toolname: "Youtube Tag Generator",
+      link: "",
+    },
+    {
+      toolname: "Youtube Tag Generator",
+      link: "",
+    },
+  ];
 
   return (
     <div className="relative w-full max-w-6xl mx-auto">
@@ -50,13 +80,16 @@ export default function AutoSlider() {
                   alt="YouTube Logo"
                   className="w-full h-40 object-cover"
                 />
-                <div className="p-4">
-                  <h3 className="text-center text-gray-700 font-bold">
-                    YouTube Tags Generator
+                <div className="p-4 flex flex-col w-full items-center ">
+                  <h3 className="text-center my-3 text-gray-700 font-bold">
+                    {item.toolname}
                   </h3>
-                  <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg w-full">
+                  <Link
+                    href={item.link}
+                    className="mt-4 bg-blue-500  text-white py-2 px-4 rounded-lg w-fit"
+                  >
                     Explore
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
