@@ -87,6 +87,18 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }: any) {
+      addUtilities({
+        ".no-scrollbar": {
+          "::-webkit-scrollbar": {
+            display: "none",
+          } /* Chrome, Safari, Opera */,
+          "-ms-overflow-style": "none" /* Internet Explorer 10+ */,
+          "scrollbar-width": "none" /* Firefox */,
+        },
+      });
+    },
+  ],
 };
 export default config;

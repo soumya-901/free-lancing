@@ -52,7 +52,7 @@ export default function AutoSlider() {
         loop={true} // Infinite loop
         pagination={{ clickable: true }} // Dots pagination
         autoplay={{
-          delay: 3000, // Slide every 3 seconds
+          delay: 2000, // Slide every 2 seconds
           disableOnInteraction: false,
         }}
         className="mySwiper"
